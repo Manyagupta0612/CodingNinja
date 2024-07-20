@@ -1,0 +1,105 @@
+/* Container styling */
+div.controls-container {
+    margin-bottom: 20px;
+  }
+  
+  div.sort-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  div.sort-container select {
+    margin-left: 10px;
+  }
+  
+  /* Task list container styling */
+  div.task-list {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .header-row {
+    display: flex;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .header-cell {
+    flex: 1;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px solid #ddd;
+  }
+  
+  .header-cell:last-child {
+    border-right: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .cell {
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .cell:last-child {
+    border-right: none;
+  }
+  
+  /* Input fields and button styling */
+  input, select, button {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Add button styling */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Edit/save button styling */
+  button.edit-save {
+    background-color: #2196F3;
+  }
+  
+  button.edit-save:hover {
+    background-color: #0b7dda;
+  }
+  
+  /* Delete button styling */
+  button.delete {
+    background-color: #f44336;
+  }
+  
+  button.delete:hover {
+    background-color: #da190b;
+  }
+  
